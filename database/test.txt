@@ -1,1 +1,1 @@
-Test TExt
+Das ist ein dynamischer Text.
