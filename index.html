@@ -6,7 +6,7 @@
   <script>
     $(document).ready(function() {
       $.ajax({
-        url: 'file:///S:/Krogie/code-projekts/dynamic-text/test.txt', // Der Pfad zur Textdatei auf deinem Server
+        url: 'https://krogie.github.io/database/test.txt', // Der Pfad zur Textdatei auf deinem Server
         method: 'GET',
         success: function(response) {
           $('#dynamic-text').text(response);
